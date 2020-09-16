@@ -32,3 +32,7 @@ def train():
     scaled_train_samples = scaler.fit_transform((train_samples).reshape(-1,1))
 
     return (scaled_train_samples, train_labels)
+
+
+if __name__ == '__main__':
+    pass
